@@ -1,3 +1,5 @@
+Time - O(n*m) , Space - O(1)
+
 vector<int> spirallyTraverse(vector<vector<int> > mat, int r, int c) 
     {
         int rs = 0;
@@ -36,3 +38,5 @@ vector<int> spirallyTraverse(vector<vector<int> > mat, int r, int c)
         }
         return res;
     }
+// recursive solution . time - O(m*n) , space - O(1)
+
